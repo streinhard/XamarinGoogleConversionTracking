@@ -1,3 +1,3 @@
 using ObjCRuntime;
 
-[assembly: LinkWith ("libGoogleConversionTracking.a", SmartLink = true, ForceLoad = true)]
+[assembly: LinkWith("libGoogleConversionTracking.a", Frameworks = "AdSupport", SmartLink = true, ForceLoad = true)]
